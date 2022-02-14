@@ -8,7 +8,7 @@
     width: 100%;
     background-color: #f9f9fa;
     padding: 20px 50px;
-    box-sizing: border-box;
+    box-sizing: border-box; /* padding 과 별개로 box 사이즈를 늘리지 않도록 */
     border-top: 1px solid rgba(121, 121, 121, 0.3);
 }
 
@@ -18,5 +18,36 @@
 }
 
 .nav__link {
+    position: relative;
     color: #2e363e;
+}
+
+.nav__notification {
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    left: 25px;
+    bottom: 15px;
+}
+
+.nav__ellips {
+    background-color: tomato;
+    width: 7px;
+    height: 7px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    left: 33px;
+    bottom: 27px;
 }
