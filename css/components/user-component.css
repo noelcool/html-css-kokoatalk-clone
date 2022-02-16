@@ -52,3 +52,7 @@
     display: block;
     margin-bottom: 10px;
 }
+
+.user-component__chats {
+    margin-bottom: 25px;
+}

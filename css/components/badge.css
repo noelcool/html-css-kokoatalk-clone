@@ -9,3 +9,17 @@
     color: white;
     font-weight: 600;
 }
+
+.badge-main {
+    display: flex;
+    position: relative;
+}
+
+.badge-xs {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+}
