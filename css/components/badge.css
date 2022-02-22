@@ -23,3 +23,18 @@
     width: 5px;
     height: 5px;
 }
+
+.user-component__mark-circle {
+    width: 14px;
+    height: 14px;
+    border-radius: 15px;
+    border: solid 1px tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-component__mark-ex {
+    font-size: 12px;
+    color: tomato;
+}
