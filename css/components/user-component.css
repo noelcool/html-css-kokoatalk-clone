@@ -34,6 +34,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    left: 278px;
+    top: 160px;
+
 }
 
 .user-component__mark-ex {
